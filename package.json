@@ -25,5 +25,7 @@
     "vite": "^7.2.4"
   },
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "https://github.com/fedoweb/04ra-hex2rgb.git",
+  "author": "fedoweb <fedo.web@mail.ru>"
 }
