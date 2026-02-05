@@ -1,4 +1,4 @@
-const Converter = (hex) => {
+const converter = (hex) => {
 
   hex = hex.replace(/^#/, '');
 
@@ -9,4 +9,4 @@ const Converter = (hex) => {
   return `rgb(${r}, ${g}, ${b})`;
 };
 
-  export default Converter;
+  export default converter;

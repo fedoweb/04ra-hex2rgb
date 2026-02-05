@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import Converter from './Converter';
-import Validator from './Validator';
+import converter from './converter';
+import validator from './validator';
 
 const HexToRgb = () => {
   const [hexValue, setHexValue] = useState('');
@@ -21,8 +21,8 @@ const HexToRgb = () => {
   useEffect(() => {
     if (hexValue.length === 7) {
 
-      if (Validator(hexValue)) {
-        const rgb = Converter(hexValue);
+      if (validator(hexValue)) {
+        const rgb = converter(hexValue);
         setRgbValue(rgb);
         setBackgroundColor(hexValue);
 
